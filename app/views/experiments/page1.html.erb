@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
 <h1>Experiments#page1</h1>
 <p>Find me in app/views/experiments/page1.html.erb</p>
 
@@ -7,3 +14,19 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div id="demo"> </div>
+
+<script type="text/javascript">
+	var myVar = setInterval(function(){ myTimer() }, 1000);
+
+function myTimer() {
+    var d = new Date();
+    var t = d.toLocaleTimeString();
+    document.getElementById("demo").innerHTML = t;
+}
+
+
+
+</script>
+</body>
+</html>
