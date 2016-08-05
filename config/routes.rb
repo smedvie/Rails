@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'experiments/bootstrap'
+
   get 'experiments/page1'
 
   get 'experiments/page2'
